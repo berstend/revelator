@@ -1,4 +1,4 @@
-# :postal_horn: revelator
+# revelator
 
 > An (opinionated) attempt at documenting the status quo in web development (favorite technologies & best practices).
 
@@ -26,6 +26,26 @@ This list tries to distill the gist and keep up to date with the current best wa
 
 # JS
 
+## Flavors
+_Language features, transpilers, type safety_
+
+**Gist: Use ES6/2015 as default, TypeScript et al if you have the need.**
+
+- `ES6/ES2015` emerged as the standard of writing JavaScript
+	- Frontend
+		- Transpile using `babel` when targeting browsers
+	- Backend
+		- Avoid transpiling when targeting Node.js
+		- Most ES2015 features are natively supported [starting from v7.10](http://node.green/)
+			- Notable exception: `import` statements (use `require` [for now](https://github.com/nodejs/node-eps/pull/39))
+- `TypeScript` is gaining momentum for larger code bases due to type safety, strong backing by Microsoft, good tooling with VSCode
+- `Flow` mostly popular in react land (supported by Facebook)
+- _Dead/obsolete: Coffeescript_
+
+## Features
+- Use `async/await` for control flow and to avoid nested callbacks, wrap callbacks in promises for now
+
+
 ## Package manager
 
 _& Dependency management_
@@ -38,5 +58,4 @@ _& Dependency management_
 - `npm` still the current standard and comes bundled with `node`
 	- Had some big issues (performance, reproducability) that led to development of yarn 
 	- Starting from v5 they've addressed most issues ([speed](https://github.com/thomaschaaf/npm-vs-yarn), [package-lock.json](http://blog.npmjs.org/post/161081169345/v500))
-- Outdated/Obsolete:
-	- `bower` (Fronted focus, swallowed by npm/yarn)
+- _Dead/obsolete: `bower` (Fronted focus, swallowed by npm/yarn)_
