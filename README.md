@@ -42,7 +42,7 @@ _Language features, transpilers, type safety_
 - `Flow` mostly popular in react land (supported by Facebook)
 - _Dead/obsolete: Coffeescript_
 
-## Features
+### Features
 - Use `async/await` for control flow and to avoid nested callbacks, wrap callbacks in promises for now
 
 
@@ -59,3 +59,34 @@ _& Dependency management_
 	- Had some big issues (performance, reproducability) that led to development of yarn 
 	- Starting from v5 they've addressed most issues ([speed](https://github.com/thomaschaaf/npm-vs-yarn), [package-lock.json](http://blog.npmjs.org/post/161081169345/v500))
 - _Dead/obsolete: `bower` (Fronted focus, swallowed by npm/yarn)_
+
+
+## Frontend frameworks
+
+**Gist: Use `React` or `Vue.js`**
+
+- `React` is the new standard for a while now, no signs that this will change soon
+- `Vue.js` (dubbed to be more approachable) is up and coming with a dedicated following
+- `Angular` took a massive hit in popularity with the backwards breaking v2 release
+
+## State management
+
+`TODO`
+
+
+## Testing
+
+**Gist: Use `mocha` or `jest`**
+
+- `mocha` is the current standard
+- `jasmine` has a similar large following
+- `jest` is up and coming, especially in conjunction with React code
+
+## Build tools and bundlers
+
+**Gist: Use `webpack` with [`npm scripts`](https://github.com/terkelg/npm-scripts-as-build-tool) (if sufficient)**
+
+- `webpack` is the current standard, especially for bundling
+- `rollup` is the new kid on the block, consider using it [for libraries](https://medium.com/webpack/webpack-and-rollup-the-same-but-different-a41ad427058c)
+- `gulp` not a bundler but a build tool with rich ecosystem
+- _Dead/obsolete: Grunt (use Gulp), Browserify (use webpack)_
