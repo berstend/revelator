@@ -33,7 +33,7 @@ _& Dependency management_
 **Gist: Use `yarn` for now but get ready to switch back to `npm` soon.**
 
 - `yarn` gained a lot of traction and should be used instead of `npm`
-  - Main pros: Much faster, reproducable builds (lock file)
+  - Pros: Much faster, reproducable builds (lock file)
   - Cons: Doesn't handle certain advanced cases ([1](https://github.com/yarnpkg/yarn/issues/2090), [2](https://github.com/yarnpkg/yarn/issues/3507), [3](https://github.com/yarnpkg/yarn/issues/3433))
 - `npm` still the current standard and comes bundled with `node`
 	- Had some big issues (performance, reproducability) that led to development of yarn 
