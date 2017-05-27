@@ -1,4 +1,4 @@
-# revelator
+# :postal_horn: revelator
 
 > An (opinionated) attempt at documenting the status quo in web development (favorite technologies & best practices).
 
