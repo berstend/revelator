@@ -24,6 +24,20 @@ This list tries to distill the gist and keep up to date with the current best wa
 * This list is not meant to document all options available but the relevant ones
 
 
+
+# General
+
+## Code editor
+
+**Gist: Boils down to personal preference and experience**
+
+- `Sublime Text 3` - Despite being not-free is still going strong with a large following and plugin ecosystem
+  - Pros: Cross-platform, light-weight and extremely fast & responsive, magic session auto-saving, lots of high quality plugins
+- `Atom` has a solid user based by now with healthy ecosystem
+- `VSCode` is picking up steam: Good support from MS, great tooling (e.g. Typescript support) 
+- Classics like `vim` still persist
+
+
 # JS
 
 ## Flavors
