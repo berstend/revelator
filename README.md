@@ -1,6 +1,7 @@
-# :postal_horn: revelator
+<p align="center">
+ <img src="https://i.imgur.com/RFZtNh1.png" alt="Revelator"/>
+</p>
 
-> An (opinionated) attempt at documenting the status quo in web development (favorite technologies & best practices).
 
 #### `Last updated at: 2017-05-27`
 
