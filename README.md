@@ -1,6 +1,6 @@
 # revelator
 
-> An (opinionated) attempt at documenting the status quo in web development (favorite stacks & technologies, best practices).
+> An (opinionated) attempt at documenting the status quo in web development (favorite technologies & best practices).
 
 #### `Last updated at: 2017-05-27`
 
